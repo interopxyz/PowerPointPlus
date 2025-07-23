@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PptPlus_Logo_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PptPlus_Logo-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PptPlus_Logo_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PptPlus_Logo-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Chart_Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Chart-Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Chart_Bar_Stacked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Chart-Bar-Stacked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Chart_Pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Chart-Pie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Image_Plcpng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Image-Plcpng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_List" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-List.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Actions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Actions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Banners" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Banners.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Basics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Basics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Callout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Callout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Equations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Equations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Flowchart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Flowchart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_LineA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-LineA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Polygon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Polygon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Rect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Rect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Shape_Star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Shape-Star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Con_Text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Con-Text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Borders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Borders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Font_Paragraph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Font_Paragraph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Font_Presets_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Font_Presets-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Font_Style" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Font_Style.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Graphic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Graphic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Mod_Text_Combine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Mod-Text_Combine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_Ansi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_Ansi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_Custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_Custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_IsoA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_IsoA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_IsoB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_IsoB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_Ratio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_Ratio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Pag_Size_US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Pag-Size_US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Sld_Clear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Sld-Clear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Sld_Deconstruct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Sld-Deconstruct.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ppt_Slide_AddContents" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ppt_Slide-AddContents.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_AddSlides" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-AddSlides.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_ClearSlides" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-ClearSlides.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_ClearSlides2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-ClearSlides2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Deconstruct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Deconstruct.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Stream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Stream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Template.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Theme_Accent_Colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Theme-Accent-Colors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Theme_Font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Theme-Font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pt_Prs_Theme_Secondary_Colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pt_Prs-Theme-Secondary-Colors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
