@@ -75,10 +75,6 @@ namespace PptPlus.Components.Presentation
 
             Page page = Page.Preset((Page.SizesRatio)type);
 
-            int orientation = 0;
-            DA.GetData(2, ref orientation);
-            if (orientation != 0) page.Orientation = Page.Orientations.Landscape;
-
             int units = 0;
             DA.GetData(4, ref units);
 
@@ -106,6 +102,10 @@ namespace PptPlus.Components.Presentation
 
                 page = new Page(page.Name, width, width * page.Ratio);
             }
+
+            int orientation = 0;
+            DA.GetData(2, ref orientation);
+            if (orientation != 0) page.Orientation = Page.Orientations.Landscape;
 
             PpSlide slide = new PpSlide(page);
             PpPresentation presentation = new PpPresentation(page);

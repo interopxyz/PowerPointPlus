@@ -23,7 +23,7 @@ namespace PptPlus
         //Return a string representing your preferred contact details.
         public override string AuthorContact => "interopxyz@gmail.com";
 
-        public override string AssemblyVersion => "1.0.1.0";
+        public override string AssemblyVersion => "1.0.2.0";
     }
 
     public class PptPlusCategoryIcon : GH_AssemblyPriority
