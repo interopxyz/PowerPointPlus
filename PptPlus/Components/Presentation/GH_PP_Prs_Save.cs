@@ -34,7 +34,7 @@ namespace PptPlus.Components
             pManager.AddTextParameter("File Name", "N", "The Document name", GH_ParamAccess.item);
             pManager[2].Optional = true;
             pManager.AddBooleanParameter(Constants.Activate.Name, Constants.Activate.NickName, Constants.Activate.Input, GH_ParamAccess.item);
-            pManager[3].Optional = false;
+            pManager[3].Optional = true;
         }
 
         /// <summary>
